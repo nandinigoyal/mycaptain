@@ -2,9 +2,9 @@
 int main()
 {
     printf("Enter Marks:");
-    int marks=100;
+    int marks;
     scanf("%d",&marks);
-	if (marks>=85)
+	if (marks>=85 && marks<=100)
 	{
 	printf("GRADE A");
     }
